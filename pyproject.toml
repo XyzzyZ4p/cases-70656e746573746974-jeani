@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jeani"
+version = "0.1.0"
+description = "Get unique values from json"
+authors = ["XyzzyZ4p <xyzzyzap@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.3"
+
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.32.0"
+pytest = "^7.2.1"
+isort = "^5.12.0"
+tox = "^4.4.5"
+pre-commit = "^3.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
